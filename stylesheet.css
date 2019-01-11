@@ -1,0 +1,77 @@
+
+body {
+    background-image: url(images/bg.jpg);
+    color: darkgray;
+    font-family: "Share Tech Mono";
+}
+
+
+.title {
+    font-size: 30px;
+}
+
+.main-title {
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.character {
+    display: inline-block;
+    background-color: black;
+    border-width: 2px;
+    border-color: lime;
+    border-style: solid;
+    border-radius: 10px;
+    color: white;
+}
+
+.character-img {
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+    
+}
+
+.character-name {
+    text-align: center;
+}
+
+.character-hp {
+    text-align: center;
+}
+
+#game-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#attack-button {
+    width: 150px;
+    height: 100px;
+    background: red;
+    border: none;
+    border-radius: 15px;
+    font-family: "Share Tech Mono";
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#stat-message {
+    font-size: 30px;
+    text-align: center;
+    color: lime;
+    margin-top: 50px;
+}
+
+#stat-message.div {
+    color: red;
+}
+
